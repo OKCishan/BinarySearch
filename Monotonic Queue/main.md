@@ -39,4 +39,26 @@ void sliding_window_minimum(std::vector<int> & ARR, int K) {
 }
 ```
 
-
+**Sliding Window maximum: ** <br />
+```
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        vector<int> ans;
+        deque<pair<int, int>> window;
+        for(int i=0; i<nums.size(); i++) {
+            // Carefully inserting into window:
+            // - remove all elements lower than nums[i] from back since they cannot be maximum going forward
+            while(!window.empty() and window.back().first < nums[i]) {
+                window.pop_back();
+            }
+            
+            window.push_back(make_pair(nums[i], i));
+            
+            while(window.front().second <= (i-k)) window.pop_front();
+            
+            // since window has been decreasing continously, so maxm is at front
+            if(i >= k-1) ans.push_back(window.front().first);
+        }
+        
+        return ans;
+    }
+```
