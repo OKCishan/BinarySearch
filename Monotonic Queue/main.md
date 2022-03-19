@@ -39,7 +39,7 @@ void sliding_window_minimum(std::vector<int> & ARR, int K) {
 }
 ```
 
-**Sliding Window maximum: ** <br />
+***Sliding Window maximum:*** <br />
 ```
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
         vector<int> ans;
