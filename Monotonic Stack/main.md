@@ -1,3 +1,3 @@
 ***Major Problems to learn this topic:*** <br />
 1. ```https://leetcode.com/problems/maximum-binary-tree/``` Soln explanation (using stack (decreasing)): ```https://leetcode.com/problems/maximum-binary-tree/discuss/106146/C++-O(N)-solution``` <br />
-2. 
+2. ```https://leetcode.com/problems/max-chunks-to-make-sorted-ii/``` Soln explanation (using stack (increasing with a diff meaning)): ```https://leetcode.com/problems/max-chunks-to-make-sorted-ii/discuss/595713/Monotonic-stack-solution-with-detailed-explanation``` <br />
