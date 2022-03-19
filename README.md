@@ -1,5 +1,5 @@
 # BinarySearch
-Practice on binary search questions with full optimisations and explanations <br />
+Practice- leetcode and binary search questions with full optimisations and explanations <br />
 
 **Topics:**
 1. Monotonic Queue (19 March, 22)
