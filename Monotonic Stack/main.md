@@ -3,4 +3,4 @@
 2. ```https://leetcode.com/problems/max-chunks-to-make-sorted-ii/``` Soln explanation (using stack (increasing with a diff meaning)): ```https://leetcode.com/problems/max-chunks-to-make-sorted-ii/discuss/595713/Monotonic-stack-solution-with-detailed-explanation``` <br />
 3. ```https://leetcode.com/problems/sum-of-subarray-ranges/``` Soln explanation (using stack (increasing & decreasing both)): ```https://leetcode.com/problems/sum-of-subarray-ranges/discuss/1835438/Monotonic-Stack-O(n)-Clean-C%2B%2B-solution``` <br />
 4. ```https://leetcode.com/problems/sum-of-subarray-minimums/``` <br />
-```https://leetcode.com/problems/sum-of-subarray-minimums/discuss/1124433/Summary-of-MonotonicStack-with-Detailed-Analysis```
+```https://leetcode.com/problems/sum-of-subarray-minimums/discuss/1124433/Summary-of-MonotonicStack-with-Detailed-Analysis``` && ```https://leetcode.com/problems/sum-of-subarray-minimums/discuss/214611/O(N)-Stack-solution-with-example-and-detailed-explanation```
